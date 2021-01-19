@@ -1,23 +1,9 @@
-.mynav {
-   
-}
-/* .navbar-collapse {
-    float: right;
-} */
-
-.mynav ul {
-    align-items: right;
-    float: right;
-}
 
 .navbar-brand {
     font-weight: bold;
     background-color: lightblue;
 }
 
-.nav-item {
-    float: right;
-}
 
 .card-body img {
     align-items: center;
@@ -29,4 +15,15 @@
 .viz {
     height: 75%;
     object-fit: fill;
+}
+
+.viz-image {
+    text-align:center;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.viz-head {
+    margin-top: 3%;
+    margin-left: auto;
 }
