@@ -14,7 +14,7 @@
 
     <!-- <div class="d-flex justify-content-between"> -->
     <div class = "row">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar  navbar-expand-lg navbar-light bg-light mynav">
             <a class="navbar-brand" href="#">What's the Weather Like?</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -40,76 +40,76 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Data</a>
                 </li>
+            <!-- </ul> -->
             </ul>
             </div>
         </nav>
     </div>
 <!-- Explanation of the Project -->
-    <div class = "row">
-        <div class = "col-md-8">
-            <div class="card">
-                <div class="card-body">
-                    <h2 class="card-title"> Northern Hemisphere Linear Regressions of X vs. Latitude</h2>
-                    <p class="card-text text-wrap">In this project, the OpenWeather API was used to collect real time weather data from cities around the world using their coodinates (latitude and longitude). Based off of this dataframe, scatter plots were created to determine relationships between variables such as cloudiness, maximum temperature, humidity, and wind speed. Linear regressions were performed to determine the line of best fit as well as the r value in order to analyze the significance of the relationship between variables.</p>
-                    <img src = "Resources\assets\images\Northen Hemisphere-Max Temp vs. Latitude.png">
-                </div>
-            </div>
-        </div>
-<!-- Visualizations sidebar preview -->
-        <div class = "col-md-4">
+    <div class = "container">
+        <div class = "row">
+            <div class = "col-md-8">
                 <div class="card">
                     <div class="card-body">
-                      <h4 class="card-title">Visualizations</h4>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-            <div class = "row">
-                <div class = "col-md-6">
-                    <div class="card">
-                        <div class="card-body image">
-                            <a target="_blank" href="Resources\assets\images\Northen Hemisphere-Max Temp vs. Latitude.png"></a>
-                                <img src = "Resources\assets\images\Northen Hemisphere-Max Temp vs. Latitude.png">
-                        </div>
-                    </div>
-                </div>
-                <div class = "col-md-6">
-                    <div class="card">
-                        <div class="card-body image">
-                          <h5 class="card-title">Special title treatment</h5>
-                          <img src = "Resources\assets\images\Northern Hemisphere-Cloudiness vs. Latitude.png">
-                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
+                        <h2 class="card-title" style = center> Northern Hemisphere Linear Regressions of X vs. Latitude</h2>
+                        <p class="card-text text-wrap">In this project, the OpenWeather API was used to collect real time weather data from cities around the world using their coodinates (latitude and longitude). Based off of this dataframe, scatter plots were created to determine relationships between variables such as cloudiness, maximum temperature, humidity, and wind speed. Linear regressions were performed to determine the line of best fit as well as the r value in order to analyze the significance of the relationship between variables.</p>
+                        <img src = "Resources\assets\images\Northen Hemisphere-Max Temp vs. Latitude.png">
                     </div>
                 </div>
             </div>
-            <div class = "row">
-                <div class = "col-md-6">
-                    <div class="card">
-                        <div class="card-body image">
-                          <h5 class="card-title">Special title treatment</h5>
-                          <img src = "Resources\assets\images\Northern Hemisphere-Humidity vs. Latitude.png">
-                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+    <!-- Visualizations sidebar preview -->
+            <div class = "col-md-4 viz">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Visualizations</h4>
+                        <p class="card-text"> Click on the images below to learn more.</p>
+                    </div>
+                <div class = "row">
+                    <div class = "col-md-6">
+                        <div class="card">
+                            <div class="card-body image">
+                                <a href="Resources\assets\images\Northen Hemisphere-Max Temp vs. Latitude.png" target="_blank">
+                                    <img src = "Resources\assets\images\Northen Hemisphere-Max Temp vs. Latitude.png">
+                                </a>
+                                    
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-md-6">
+                        <div class="card">
+                            <div class="card-body image">
+                            <a href = "Resources/assets/images/Northern Hemisphere-Cloudiness vs. Latitude.png">
+                            <img src = "Resources\assets\images\Northern Hemisphere-Cloudiness vs. Latitude.png">
+                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class = "col-md-6">
-                    <div class="card">
-                        <div class="card-body image">
-                          <h5 class="card-title">Special title treatment</h5>
-                          <img src = "Resources\assets\images\Northern Hemisphere-Wind Speed vs. Latitude.png">
-                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                <div class = "row">
+                    <div class = "col-md-6">
+                        <div class="card">
+                            <div class="card-body image">
+                            <a href = "Resources/assets/images/Northern Hemisphere-Humidity vs. Latitude.png">
+                            <img src = "Resources\assets\images\Northern Hemisphere-Humidity vs. Latitude.png">
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-md-6">
+                        <div class="card">
+                            <div class="card-body image">
+                            <a href= "Resources/assets/images/Northern Hemisphere-Wind Speed vs. Latitude.png">
+                            <img src = "Resources\assets\images\Northern Hemisphere-Wind Speed vs. Latitude.png">
+                            </a>
+                            </div>
                         </div>
                     </div>
                 </div>
+                </div>
             </div>
             </div>
-        </div>
-        </div>
-    </div>  
-
+        </div>  
+    </div>
 
 
 </body>
