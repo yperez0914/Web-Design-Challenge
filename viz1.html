@@ -15,7 +15,7 @@
     <!-- <div class="d-flex justify-content-between"> -->
     <div class = "row">
         <nav class="navbar  navbar-expand-lg navbar-light bg-light mynav">
-            <a class="navbar-brand" href="#">What's the Weather Like?</a>
+            <a class="navbar-brand" href="index.html">What's the Weather Like?</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -27,18 +27,21 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Plot
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="viz1.html">NH: Max Temp vs. Latitude</a>
+                            <a class="dropdown-item" href="#">NH: Cloudiness vs. Latitude </a>
+                            <a class="dropdown-item" href="#">NH: Humidity vs. Latitude </a>
+                            <a class="dropdown-item" href="#">NH: Wind Speed vs. Latitude </a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Southern Hemisphere Plots Coming Soon!</a>
                     </div>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Comparisons</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Data</a>
+                    </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="comparisons.html">Comparisons</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Data</a>
+                        </li>
                 </li>
             <!-- </ul> -->
             </ul>
@@ -47,14 +50,14 @@
     </div>
 <div class =  "container">
     <div class = "row  viz-head">
-        <div class = "col viz-center">
-            <h1 class = "viz-title"> Northern Hemisphere: Max Temperature vs. Latitude  </h1>
+        <div class = "col-md-8 viz-center">
+            <h1 class = "viz-title" style = "text-align: center"> Northern Hemisphere: <br>Max Temperature vs. Latitude  </h1>
         </div>
     </div>
     <div class = "row viz-page">
         <div class = "col-md-8">
             <center><img class = "viz-img" src = "Resources/assets/images/Northern Hemisphere-Max Temp vs. Latitude.png"></center>
-            <p class = "viz-description" style = "text-align: justify"> Northern hemisphere data was pulled from the cities.csv using a loc for latitude coordinates greater than 0 degrees in Pandas. The scipy.stats module was imported to perform a linear regression max temp vs. latitude and r was calculated. The r-value was found to be: 0.713173754407557. The line equation can be found in the image below. Since the r value is larger than .7, there is a strong positive relationship between maximum temperature and latitude in cities located in the northern hemisphere.</p>
+            <p class = "viz-description" style = "text-align: justify"> Northern hemisphere data was pulled from the cities.csv using a loc for latitude coordinates greater than 0 degrees in Pandas. The scipy.stats module was imported to perform a linear regression max temp vs. latitude and r was calculated. The r-value was found to be: -0.8594328572452402. The line equation can be found in the image below. Since the r value is larger than .7, there is a strong negative relationship between maximum temperature and latitude in cities located in the northern hemisphere.</p>
         </div>
         <div class = "col-md-4 viz">
             <div class="card">

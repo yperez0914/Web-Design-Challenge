@@ -4,7 +4,12 @@
     background-color: lightblue;
 }
 
-
+/* .container {
+    background-color: lightcoral;
+} */
+.table td{
+    text-align: center;
+}
 .card-body img {
     align-items: center;
     width: 100%;
