@@ -1,4 +1,4 @@
-
+/* Body formatting */
 body {
     background-color: lightcoral;
 }
@@ -6,6 +6,8 @@ body {
     body {
         background-color: white;
 }
+
+/* Navbar formatting */
 .navbar{
     padding:0%;
     background-color: lightblue;
@@ -24,15 +26,20 @@ body {
         font-weight: bold;
         background-color: white;
 }
-
-
+/* Comparison image border */
+.border .border-primary {
+    border-width: 5px;
+}
+/* Visualization card formatting */
 .card-body image {
     align-items: center;
     width: 100%;
     height: 100%;
     object-fit: fill;
 }
-
+.viz-page{
+    background-color: white;
+}
 .viz {
     height: 75%;
     object-fit: fill;
@@ -54,6 +61,13 @@ body {
     height: 100%;
     object-fit: fill;
 }
+/* Data table formatting */
 .table td{
     text-align: center;
+}
+.dataframe .table-responsive table{
+    background-color: white;
+}
+.comp-head {
+    background-color: white;
 }
