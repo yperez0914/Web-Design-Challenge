@@ -7,5 +7,7 @@
 			"path": "..\\..\\Web"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Web-Design-Challenge"
+	}
 }
