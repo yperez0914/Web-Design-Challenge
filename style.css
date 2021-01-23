@@ -5,32 +5,20 @@ body {
 /* Navbar formatting */
 .mynav{
     font-weight: bold;
-    background-color: lightblue;
+    background-color: rgb(230, 200, 30);
     /* padding:0% */
 }
 .navbar-brand{
     font-weight:bold;
-    background-color:white;
+    background-color: rgb(36, 206, 206);
 }
 
 /* Comparison image border */
 .border .border-primary {
     border-width: 5px;
 }
-.comp-title {
-    background: white;
-}
 
 /* Visualization card formatting */
-.card-columns {
-    @include media-breakpoint-only (md) {
-        column-count:4;
-    }
-    @include media-breakpoint-only(xs) {
-        column-count:2;
-    }
-}
-
 .card-body image {
     align-items: center;
     width: 100%;
@@ -62,8 +50,9 @@ body {
     object-fit: fill;
 }
 /* Data table formatting */
-.dataframe .table-responsive table{
+.dataframe{
     background-color: white;
+    text-align:center;
 }
 @media only screen and (max-width: 767.98px) {
     body {
