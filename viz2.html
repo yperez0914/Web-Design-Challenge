@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Max Temperature</title>
+    <title>Cloudiness</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -54,7 +54,7 @@
         <div class = "col-md-8 viz-page">
             <h1 class = "viz-title" style ="text-align:center" > Northern Hemisphere: <br> Cloudiness vs. Latitude  </h1>
             <center><img class = "viz-img" src = "Resources/assets/images/Northern Hemisphere-Cloudiness vs. Latitude.png"></center>
-            <p class = "viz-description" style = "text-align: justify">Northern hemisphere data was pulled from the cities.csv using a loc for latitude coordinates greater than 0 degrees in Pandas. The scipy.stats module was imported to perform a linear regression max temp vs. latitude and r was calculated. The r-value was found to be: 0.385468507422269. The line equation can be found in the image below. Since the r value is between .3 and .5, there is a weak positive relationship between humidity and latitude in the northern hemisphere.This is to be expected since humidity is higher near the equator (latitude =0).</p>
+            <p class = "viz-description" style = "text-align: justify">Northern hemisphere data was pulled from the cities.csv using a loc for latitude coordinates greater than 0 degrees in Pandas. The scipy.stats module was imported to perform a linear regression max temp vs. latitude and r was calculated. The r-value was found to be: 0.22195359628342098. The line equation can be found in the image below. Since the r value is less than .3, there is no relationship between cloudiness and latitude in cities located in the northern hemisphere.</p>
         </div>
            <!-- Visualizations sidebar preview -->
            <div class = "col-md-4 viz">

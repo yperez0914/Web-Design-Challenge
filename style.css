@@ -2,35 +2,35 @@
 body {
     background-color: lightcoral;
 }
-@media only screen and (max-width: 767.98px) {
-    body {
-        background-color: white;
-}
-
 /* Navbar formatting */
-.navbar{
-    padding:0%;
-    background-color: lightblue;
-}
 .mynav{
     font-weight: bold;
     background-color: lightblue;
-    padding:0%
+    /* padding:0% */
 }
-/* .navbar-brand{
+.navbar-brand{
     font-weight:bold;
-    background-color:lightblue;
-} */
-@media only screen and (max-width: 767.98px) {
-    .navbar-brand {
-        font-weight: bold;
-        background-color: white;
+    background-color:white;
 }
+
 /* Comparison image border */
 .border .border-primary {
     border-width: 5px;
 }
+.comp-title {
+    background: white;
+}
+
 /* Visualization card formatting */
+.card-columns {
+    @include media-breakpoint-only (md) {
+        column-count:4;
+    }
+    @include media-breakpoint-only(xs) {
+        column-count:2;
+    }
+}
+
 .card-body image {
     align-items: center;
     width: 100%;
@@ -62,12 +62,15 @@ body {
     object-fit: fill;
 }
 /* Data table formatting */
-.table td{
-    text-align: center;
-}
 .dataframe .table-responsive table{
     background-color: white;
 }
-.comp-head {
-    background-color: white;
+@media only screen and (max-width: 767.98px) {
+    body {
+        background-color: white;
+}
+@media only screen and (max-width: 767.98px) {
+    .mynav {
+        font-weight: bold;
+        background-color: white;
 }
