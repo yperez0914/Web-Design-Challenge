@@ -1,6 +1,6 @@
 # Web-Design-Challenge
 <br>
-For this project, I created a visualization dashboard website to showoff the visualizatiions generated from my What's the Weather Like project that plotted weather conditions for cities around the world. Several pages were created to include each visualization, an explanation of the results, and the data used to build them.Multiple components were used to create the website including a navbar, cards, and grids from Bootsrap (with customizations of course!) Pandas was used to generate the html for the data table. Finally, formatting and media queries were added using CSS. A few of them will be highlighted below.
+For this project, I created a visualization dashboard website to showoff the visualizations generated from my What's the Weather Like project that plotted weather conditions for cities around the world. Several pages were created to include each visualization, an explanation of the results, and the data used to build them.Multiple components were used to create the website including a navbar, cards, and grids from Bootsrap (with customizations of course!) Pandas was used to generate the html for the data table. Finally, formatting and media queries were added using CSS. A few of them will be highlighted below.
 <br>
 
 # Check out my website!
