@@ -172,10 +172,10 @@ body {
 [Max Temp vs. Latitude Visualization Page](https://github.com/yperez0914/Web-Design-Challenge/blob/main/viz1.html)
 <br>
 
-[Humidity vs. Latitude Visualization Page](https://github.com/yperez0914/Web-Design-Challenge/blob/main/viz2.html) 
+[Cloudiness vs. Latitude Visualization Page](https://github.com/yperez0914/Web-Design-Challenge/blob/main/viz2.html) 
 <br>
 
-[Cloudiness vs. Latitude Visualization Page](https://github.com/yperez0914/Web-Design-Challenge/blob/main/viz3.html)
+[Humidity vs. Latitude Visualization Page](https://github.com/yperez0914/Web-Design-Challenge/blob/main/viz3.html)
 <br>
 
 [Wind Speed vs. Latitude Visualization Page](https://github.com/yperez0914/Web-Design-Challenge/blob/main/viz4.html)
