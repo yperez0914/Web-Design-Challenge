@@ -12,7 +12,7 @@ For this project, I created a visualization dashboard website to showoff the vis
 Each page has a navbar to navigate easily from one page to another and get back to this landing page easily. It also includes a dropdown to navigate to each plot. This was created using Boostrap's Navbar component.
 <br>
 
-## Example:
+## Example
 ```
 <div class = "row ">
         <div class = "col-3 mynav">
@@ -62,7 +62,7 @@ Each page has a navbar to navigate easily from one page to another and get back 
 The Landing page, Comparisons page, and each Visualization page includes a sidebar with previews of the visualizations that will lead you to the their detailed explanations in a new tab with one click. This sidebar was created using Boostrap's Cards component. The visualization sidebar and Comparisons page also required the use of Bootsrap's grid for proper layout.
 <br>
 
-## Example: 
+## Example
 
 ```
 <div class = "col-md-4 viz">
@@ -162,20 +162,29 @@ body {
 <br>
 <br>
 <br>
-Find the full codes for each page here: <br>
+
+### Find the full codes for each page here: 
+<br>
 [Landing Page full code](https://github.com/yperez0914/Web-Design-Challenge/blob/main/index.html) 
 <br>
+
 [Max Temp vs. Latitude Visualization Page]https://github.com/yperez0914/Web-Design-Challenge/blob/main/viz1.html)
 <br>
+
 [Humidity vs. Latitude Visualization Page](https://github.com/yperez0914/Web-Design-Challenge/blob/main/viz2.html) 
 <br>
+
 [Cloudiness vs. Latitude Visualization Page](https://github.com/yperez0914/Web-Design-Challenge/blob/main/viz3.html)
 <br>
+
 [Wind Speed vs. Latitude Visualization Page](https://github.com/yperez0914/Web-Design-Challenge/blob/main/viz4.html)
 <br>
+
 [Comparisons Page](https://github.com/yperez0914/Web-Design-Challenge/blob/main/comparisons.html)
 <br>
+
 [Data Page] https://github.com/yperez0914/Web-Design-Challenge/blob/main/data.html)
 <br>
+
 [CSS Stylesheet]https://github.com/yperez0914/Web-Design-Challenge/blob/main/style.css)
 <br>
