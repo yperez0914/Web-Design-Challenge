@@ -55,7 +55,9 @@ Each page has a navbar to navigate easily from one page to another and get back 
 ```
 
 <br>
+
 # Cards
+
 <br>
 The Landing page, Comparisons page, and each Visualization page includes a sidebar with previews of the visualizations that will lead you to the their detailed explanations in a new tab with one click. This sidebar was created using Boostrap's Cards component. The visualization sidebar and Comparisons page also required the use of Bootsrap's grid for proper layout.
 <br>
@@ -116,7 +118,8 @@ The Landing page, Comparisons page, and each Visualization page includes a sideb
 ````
 
 <br>
-# Pandas Conversion of CSV to HTML 
+
+# Pandas Conversion from CSV to HTML
 <br>
 To create the Data page the CSV data was read in and converted to HTML using Pandas.
 <br>
@@ -129,6 +132,7 @@ html = cities.to_html()
 print(html)
 ```
 <br>
+
 # CSS Formatting and Media Queries
 <br>
 To make the pages more visually appealing, a CSS stylesheet was created to format text-alignment, font-weight, background-color, etc. For optimal viewing, media queries were created for a background color change and for the Navbar to collapse and a toggle button to appear when viewing on small screens. 
@@ -159,12 +163,19 @@ body {
 <br>
 <br>
 Find the full codes for each page here: <br>
-[Landing Page full code](https://github.com/yperez0914/Web-Design-Challenge/blob/main/index.html)
+[Landing Page full code](https://github.com/yperez0914/Web-Design-Challenge/blob/main/index.html) 
+<br>
 [Max Temp vs. Latitude Visualization Page]https://github.com/yperez0914/Web-Design-Challenge/blob/main/viz1.html)
-[Humidity vs. Latitude Visualization Page](https://github.com/yperez0914/Web-Design-Challenge/blob/main/viz2.html)
+<br>
+[Humidity vs. Latitude Visualization Page](https://github.com/yperez0914/Web-Design-Challenge/blob/main/viz2.html) 
+<br>
 [Cloudiness vs. Latitude Visualization Page](https://github.com/yperez0914/Web-Design-Challenge/blob/main/viz3.html)
+<br>
 [Wind Speed vs. Latitude Visualization Page](https://github.com/yperez0914/Web-Design-Challenge/blob/main/viz4.html)
+<br>
 [Comparisons Page](https://github.com/yperez0914/Web-Design-Challenge/blob/main/comparisons.html)
+<br>
 [Data Page] https://github.com/yperez0914/Web-Design-Challenge/blob/main/data.html)
+<br>
 [CSS Stylesheet]https://github.com/yperez0914/Web-Design-Challenge/blob/main/style.css)
 <br>
