@@ -165,10 +165,11 @@ body {
 
 ### Find the full codes for each page here: 
 <br>
+
 [Landing Page full code](https://github.com/yperez0914/Web-Design-Challenge/blob/main/index.html) 
 <br>
 
-[Max Temp vs. Latitude Visualization Page]https://github.com/yperez0914/Web-Design-Challenge/blob/main/viz1.html)
+[Max Temp vs. Latitude Visualization Page](https://github.com/yperez0914/Web-Design-Challenge/blob/main/viz1.html)
 <br>
 
 [Humidity vs. Latitude Visualization Page](https://github.com/yperez0914/Web-Design-Challenge/blob/main/viz2.html) 
@@ -183,8 +184,8 @@ body {
 [Comparisons Page](https://github.com/yperez0914/Web-Design-Challenge/blob/main/comparisons.html)
 <br>
 
-[Data Page] https://github.com/yperez0914/Web-Design-Challenge/blob/main/data.html)
+[Data Page](https://github.com/yperez0914/Web-Design-Challenge/blob/main/data.html)
 <br>
 
-[CSS Stylesheet]https://github.com/yperez0914/Web-Design-Challenge/blob/main/style.css)
+[CSS Stylesheet](https://github.com/yperez0914/Web-Design-Challenge/blob/main/style.css)
 <br>
